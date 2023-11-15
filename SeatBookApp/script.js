@@ -1,4 +1,4 @@
-if (!JSON.parse(localStorage.getItem("movies"))) {
+if (!localStorage.getItem("movies")) {
   localStorage.setItem(
     "movies",
     JSON.stringify([

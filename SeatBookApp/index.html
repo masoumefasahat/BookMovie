@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Booking</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <h1>Movie Booking</h1>
+        <div class="selectBox">
+          <select name="movie" id="movie">
+            <option disabled selected>Select Movie</option>
+          </select>
+          <select name="time" id="time">
+            <option disabled selected>Time</option>
+          </select>
+        </div>
+        <div class="description">
+          <div>
+            <p>Booked</p>
+            <div class="descIcon booked"></div>
+          </div>
+          <div>
+            <p>selected</p>
+            <div class="descIcon selected"></div>
+          </div>
+          <div>
+            <p>Available</p>
+            <div class="descIcon available"></div>
+          </div>
+        </div>
+        <div class="seatMap"></div>
+        <div class="result">
+          <p>
+            You selected <span id="seatNum"></span> seats and the total is:
+            <span id="total"></span>
+          </p>
+        </div>
+        <button class="btn">Buy</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

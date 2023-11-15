@@ -1,5 +1,4 @@
-const movies =
-  JSON.parse(localStorage.getItem("movies")) ||
+if (!JSON.parse(localStorage.getItem("movies"))) {
   localStorage.setItem(
     "movies",
     JSON.stringify([
@@ -89,6 +88,8 @@ const movies =
       },
     ])
   );
+}
+const movies = JSON.parse(localStorage.getItem("movies"));
 let selectedMovie, selectedTime;
 
 const seatNum = document.getElementById("seatNum");

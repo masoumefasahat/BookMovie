@@ -21,3 +21,6 @@ It has some features:
 
 . After refresh you have access to selected seats
 
+A preview of this project is available:
+
+![BookMovie](https://github.com/masoumefasahat/BookMovie/assets/62833866/6f452ada-8a88-4e65-81a5-b9f3f361c618)
